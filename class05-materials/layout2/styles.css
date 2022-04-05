@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+footer, header, section {
+    float: left;
+    border: 2px solid gray;
+}
+
+footer, header {
+    width: 100%;
+    height: 20%;
+    background: #F3C5C5;
+}
+
+.one {
+    height: 25%;
+    width: 100%;
+    background: #C1A3A3;
+}
+
+.two {
+    height: 35%;
+    width: 40%;
+    background: #694E4E;
+}
+
+.three {
+    height: 35%;
+    width: 60%;
+    background: #886F6F;
+}
+
+/* ================ Tablet screen ============ */
+
+@media (max-width: 1023px) and (min-width:767px) {
+
+.two, .three {
+    width: 50%;
+    height: 35%;
+}
+
+footer, header {
+    height: 15%;
+}
+
+.one {
+    height: 35%
+}
+
+   
+
+}
+
+
+/* ============= Phone screen =========== */
+
+@media screen and (max-width:767px){
+
+    .two, .three {
+        width: 50%;
+        height: 40%;
+    }
+    
+    footer, header {
+        height: 20%;
+        
+    }
+    
+    .one {
+        height: 40%;
+        
+    }
+
+   footer {
+        display: none;
+    }
+}
+

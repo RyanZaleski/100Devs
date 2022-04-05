@@ -1,0 +1,186 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+
+
+
+body {
+    background: rgb(104, 201, 231);
+    border: 5px solid rgb(40, 190, 40);
+    height: 100vh;
+    margin: 40px;
+}
+
+/* ===============================
+            header
+================================ */
+
+
+header {
+    
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 38px;
+    font-style: oblique;
+    color: white;
+}
+
+header h1 {
+
+    text-align: center;
+    
+    
+}
+
+/* ===============================
+            nav
+================================ */
+
+section {
+    width: 100%;
+    
+}
+
+section nav {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: -20px;
+    
+
+}
+
+section nav ul {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+section nav ul li {
+   
+    padding: 0 5px 0 5px;
+    color: white;
+    
+}
+
+section nav ul li + li {
+    border-left: 3px solid gray;
+    text-decoration: underline;
+    color: rgb(40, 190, 40);
+}
+
+
+/* ===============================
+           main
+================================ */
+
+img {
+    width: 25%;
+    float: right;
+    margin: 20px;
+   
+}
+
+.main {
+    width: 100%;
+    padding: 10px 40px 40px 40px;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.main h1 {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+/* ===============================
+            footer
+================================ */
+
+footer {
+    width: 100%;
+    
+}
+
+footer nav {
+    width: 100%;
+    
+}
+
+footer nav ul {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 -15px;
+}
+
+footer nav ul li {
+    padding: 0 5px 0 5px;
+    color: rgb(41, 194, 41);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.middle {
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+   
+}

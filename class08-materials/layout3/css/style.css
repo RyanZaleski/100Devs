@@ -1,0 +1,226 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE LAYOUT
+/*******************************************/
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+section, main, aside, footer {
+  float: left;
+  display: block;
+  
+}
+
+.leftSection {
+  height: 100vh;
+  width: 20%;
+ }
+
+main {
+  height: 75vh;
+  width: 50%;
+}
+
+aside {
+  height: 75vh;
+  width: 30%;
+  padding-top: 20px;
+}
+
+footer {
+  height: 25vh;
+  width: 80%;
+}
+
+/******************************************
+/* SECTION/NAV STYLING
+/*******************************************/
+
+
+
+ul li {
+  float: left;
+  width: 100%;
+  padding: 27px 0 0 40px;
+  
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+
+
+.join{
+  position: relative;
+  top: -15px;
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.login {
+  position: relative;
+  top: -25px;
+  font-size: 14px;
+}
+
+/******************************************
+/* MAIN STYLING
+/*******************************************/
+
+main img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: -3px;
+  margin-top: -10px;
+}
+
+main * {
+  float: left;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.crunch {
+  font-family: 'exo', sans-serif;
+  font-weight: 900;
+  color: orange;
+}
+
+main h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+}
+
+main p {
+  font-family: 'exo', sans-serif;
+  color: gray;
+}
+
+.danny {
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.latest {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+ 
+}
+
+/******************************************
+/* ASIDE STYLING
+/*******************************************/
+
+
+aside h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  width: 95%;
+}
+
+aside span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-bottom: 8px;
+  
+  
+  display: block;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  width: 95%;
+}
+
+.addedMargin {
+  margin-top: 10px;
+}
+
+.finalSpan {
+  border-bottom: 2px solid white;
+}
+
+/******************************************
+/* FOOTER STYLING
+/*******************************************/
+
+footer * {
+  float: left;
+  width: 33%;
+}
+
+footer section * {
+  float: left;
+  width: 75%;
+
+}
+
+footer section{
+  height: 25vh;
+}
+
+footer h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  margin-top: 5px;
+  padding-right: 60px;
+}
+
+footer section span {
+  font-family: 'montserrat', sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  
+}
+
+footer section span + span {
+  
+  font-family: 'Exo', sans-serif;
+}
+
+footer img {
+  width: 28%;
+  margin-left: 40px;
+  margin: 5px 0 5px 0;
+
+}
+
+footer p {
+  width: 33%;
+  margin: 0 50px 50px 0;
+  font-family: 'Exo';
+  font-size: 18px;
+  line-height: 28px;
+  padding-right: 100px;
+  margin-top: 5px;
+}

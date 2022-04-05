@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "shayhowe",
+			"path": "../.."
+		},
+		{
+			"name": "imagess",
+			"path": "../../../../imagess"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "shayhowe",
+		"git.ignoreLimitWarning": true
+	}
+}
